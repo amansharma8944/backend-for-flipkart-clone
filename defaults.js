@@ -8,7 +8,7 @@ const defaults = async() => {
 
 try {
 
-// await productsmodel.insertMany(products)
+await productsmodel.insertMany(products)
  console.log("data inserted successfully")
 
 } catch (error) {
