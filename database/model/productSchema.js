@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 // import autoIncrement from 'mongoose-auto-increment';
 
 const productSchema = new mongoose.Schema({
-    id: {type:String,unique:true,required:true},
+    id: {type:String,required:true},
     url: String,
     detailUrl: String,
     title: Object,
