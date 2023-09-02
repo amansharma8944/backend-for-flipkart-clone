@@ -12,6 +12,7 @@ await productsmodel.insertMany(products)
  console.log("data inserted successfully")
 
 } catch (error) {
+ console.log(error)
  console.log("at the defaults , error occured") 
 }
 }
